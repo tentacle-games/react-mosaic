@@ -6,7 +6,7 @@ import React from 'react';
 import { EnabledResizeOptions, MosaicDirection } from './types';
 import { BoundingBox } from './util/BoundingBox';
 
-const RESIZE_THROTTLE_MS = 1000 / 30; // 30 fps
+const RESIZE_THROTTLE_MS = 1000 / 60; // 60 fps
 
 const TOUCH_EVENT_OPTIONS = {
   capture: true,
